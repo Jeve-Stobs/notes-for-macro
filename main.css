@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap');
+
+h1 {
+    font-family: "Segoe UI", serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #000000;
+}
+
+h2 {
+    font-family: "Segoe UI", serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000000;
+}
+
+h3 {
+	font-family: "Segoe UI", serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #000000;
+}
+
+p {
+	font-family: "Source Serif Pro", serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+}

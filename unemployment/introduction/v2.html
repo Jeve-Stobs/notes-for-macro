@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+			integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0"
+			crossorigin="anonymous"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+			integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4"
+			crossorigin="anonymous"
+		></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+			integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+			crossorigin="anonymous"
+			onload="renderMathInElement(document.body);"
+		></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				renderMathInElement(document.body, {
+					delimiters: [
+						{ left: '$$', right: '$$', display: true },
+						{ left: '$', right: '$', display: false },
+						{ left: '\\(', right: '\\)', display: false },
+						{ left: '\\[', right: '\\]', display: true },
+					],
+					throwOnError: true,
+				});
+			});
+		</script>
+		<link rel="stylesheet" href="../../main.css" />
+	</head>
+	<body>
+		<h1>v2. Absence of Unemployment in the Competitive Model</h1>
+		<p>
+			In a typical labor market model, the labor market is represented by a
+			price on the y-axis and a quantity on the x-axis. The demand for labor is
+			usually a decreasing function of the wage, and the supply is usually an
+			increasing function of the wage, as shown in the following diagram:
+		</p>
+
+		<img
+			src="competitive_model.jpg"
+			alt="Diagram of Competitive Model"
+			width="500"
+		/>
+		<h2>Equilibrium</h2>
+		<p>
+			The equilibrium is at the intersection of the supply and the demand, which
+			gives the quantity of labor $Q^*$ and the wage $W^*$. In this competitive
+			setup, if the wage is above $W^*$, then there are more people who want to
+			work at that wage than currently have jobs. In response, people will lower
+			the wage they require and the wage will eventually reach the equilibrium.
+			If the wage is below $W^*$, then firms will offer higher wages until they
+			can hire enough workers. Thus, the wage will always adjust until it
+			reaches the equilibrium where supply equals demand.
+		</p>
+		<h2>Tightness</h2>
+		<p>
+			The key property here is that unemployment is always zero because the
+			market is always in equilibrium. This competitive paradigm does not allow
+			for any unemployment, so economists must develop a new way of thinking
+			about markets. To this end, one should introduce a new variable called
+			<em>tightness</em>, which generalizes the two-dimensional graph to a
+			three-dimensional market. Tightness is a measure of how many people are
+			available to work compared to the number of jobs available. With this new
+			variable, the market can now move away from the competitive paradigm and
+			allow for unemployment.
+		</p>
+		<p>
+			<a href="../../index.html">Back</a>
+		</p>
+	</body>
+</html>
